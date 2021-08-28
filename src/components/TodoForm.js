@@ -15,6 +15,9 @@ function TodoForm() {
 
     function handleSubmit(e) {
         e.preventDefault();
+        if (todo.task.trim()){
+            
+        }
     }
 
     return (
