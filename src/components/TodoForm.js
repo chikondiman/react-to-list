@@ -23,7 +23,7 @@ function TodoForm() {
     }
 
     return (
-        <form onSubmit={}>
+        <form onSubmit={handleSubmit}>
            <input 
            name="task"
            type="text"
