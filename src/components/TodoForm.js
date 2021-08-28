@@ -18,6 +18,7 @@ function TodoForm() {
         e.preventDefault();
         if (todo.task.trim()){
             addTodo({...todo, id: uuid.v4()});
+            setTodo();
         }
     }
 
