@@ -14,7 +14,7 @@ function TodoForm() {
     }
 
     function handleSubmit(e) {
-        
+        e.preventDefault();
     }
 
     return (
