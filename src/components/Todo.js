@@ -8,6 +8,7 @@ function Todo({ todo }) {
         <li
         style={{
             color: "white",
+            textDecoration: todo.completed ? "line-through" : null
         }}
         
         >{todo.task}</li>
