@@ -1,4 +1,5 @@
-function TodoList()
+function TodoList({ todos })
 {
-    
+
 }
+
