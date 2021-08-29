@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <p>Todo List</p>
+      <TodoForm addTodo={addTodo} />
       </header>
     </div>
   );
