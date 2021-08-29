@@ -4,7 +4,7 @@ return (
 <ul>
 
 {todos.map(todo => (
-    <Todo />
+    <Todo key={todo.id} todo={todo} />
 ))}
 
 
