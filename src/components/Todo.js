@@ -5,7 +5,12 @@ function Todo({ todo }) {
     return (
         <div style={{ display: "flex"}}>
         <input type="checkbox" />
-        <li>{todo.task}</li>
+        <li
+        style={{
+            color: "white",
+        }}
+        
+        >{todo.task}</li>
         <button>X</button>
 
         </div>
