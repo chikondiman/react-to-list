@@ -8,7 +8,12 @@ function App() {
   const [todos, setTodos] = useState([]);
 
 useEffect(() => {
-  const storageTodos = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY);
+  const storageTodos = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY))
+  if(storage_todos){
+    if () {
+      setTodos(storageTodos)
+    }
+  }
 }, []);
 
   useEffect(() => {
