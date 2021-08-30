@@ -30,7 +30,9 @@ function TodoForm({addTodo}) {
            value={todo.task}
            onChange={handleTaskInputChange}/>
 
-           <button/>
+           <button type="submit"/>
         </form>
     )
 }
+
+export default TodoForm;

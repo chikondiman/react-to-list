@@ -13,6 +13,7 @@ function App() {
       <header className="App-header">
       <p>Todo List</p>
       <TodoForm addTodo={addTodo} />
+      <TodoList todos={todos} />
       </header>
     </div>
   );
