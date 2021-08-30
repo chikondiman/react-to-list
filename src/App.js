@@ -7,6 +7,10 @@ import './App.css';
 function App() {
   const [todos, setTodos] = useState([]);
 
+useEffect(() => {
+  const storageTodos = localStorage.getItem(LOCAL_STORAGE_KEY);
+}, []);
+
   useEffect(() => {
 
     localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(todos));
