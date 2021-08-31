@@ -27,7 +27,9 @@ useEffect(() => {
   }
 
   function toggleComplete(id){
-    
+    setTodos(
+      
+    )
   }
   return (
     <div className="App">
