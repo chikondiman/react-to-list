@@ -28,7 +28,13 @@ useEffect(() => {
 
   function toggleComplete(id){
     setTodos(
-      todos.map(todo)
+      todos.map(todo => {
+        if (todo.id === id) {
+          return {
+            ...todo,
+          };
+        }
+      } )
     )
   }
   return (
