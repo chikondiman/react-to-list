@@ -10,7 +10,6 @@ function App() {
 useEffect(() => {
   const storageTodos = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY))
   if(storage_todos){
-    if () {
       setTodos(storageTodos)
     }
   }
@@ -25,6 +24,10 @@ useEffect(() => {
   
   function addTodo(todo){
     setTodos([todo, ...todos]);
+  }
+
+  function toggleComplete(id){
+    
   }
   return (
     <div className="App">
