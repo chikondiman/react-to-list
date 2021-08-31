@@ -28,7 +28,7 @@ useEffect(() => {
 
   function toggleComplete(id){
     setTodos(
-      
+      todos.map(todo)
     )
   }
   return (
