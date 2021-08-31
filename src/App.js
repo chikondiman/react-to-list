@@ -38,8 +38,10 @@ useEffect(() => {
       } )
     )
   }
+function removeTodo(id){
+setTodos(todos.filter(todo => todo.id !== id));
+}
 
-  
   return (
     <div className="App">
       <header className="App-header">
