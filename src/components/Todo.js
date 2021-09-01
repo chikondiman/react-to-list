@@ -7,7 +7,7 @@ function Todo({ todo, toggleComplete, removeTodo }) {
     }
 
     function handleRemoveClick() {
-        removeTodo();
+        removeTodo(todo.id);
     }
     return (
         <div style={{ display: "flex"}}>
