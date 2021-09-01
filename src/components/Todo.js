@@ -19,7 +19,7 @@ function Todo({ todo, toggleComplete, removeTodo }) {
         }}
         
         >{todo.task}</li>
-        <button>X</button>
+        <button onClick={handleRemoveClick}>X</button>
 
         </div>
     );
