@@ -48,7 +48,7 @@ setTodos(todos.filter(todo => todo.id !== id));
       <p>Todo List</p>
       <TodoForm addTodo={addTodo} />
       <TodoList todos={todos} />
-      </header>
+  
     </div>
   );
 }
