@@ -44,7 +44,7 @@ setTodos(todos.filter(todo => todo.id !== id));
 
   return (
     <div className="App">
-
+<Typography style={{ padding: 16}}
       <p>Todo List</p>
       <TodoForm addTodo={addTodo} />
       <TodoList todos={todos} />
