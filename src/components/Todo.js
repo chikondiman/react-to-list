@@ -22,7 +22,7 @@ function Todo({ todo, toggleComplete, removeTodo }) {
         >{todo.task}</Typography>
         <button onClick={handleRemoveClick}>X</button>
 
-        </div>
+        </ListItem>
     );
 }
 
