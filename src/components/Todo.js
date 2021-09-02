@@ -12,7 +12,7 @@ function Todo({ todo, toggleComplete, removeTodo }) {
     }
     return (
         <ListItem style={{ display: "flex"}}>
-        <input type="checkbox" onClick={handleCheckboxClick}/>
+        <CheckBox type="checkbox" onClick={handleCheckboxClick}/>
         <Typography
         style={{
             color: "white",
