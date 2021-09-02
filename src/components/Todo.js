@@ -19,7 +19,7 @@ function Todo({ todo, toggleComplete, removeTodo }) {
             textDecoration: todo.completed ? "line-through" : null
         }}
         
-        >{todo.task}</li>
+        >{todo.task}</Typography>
         <button onClick={handleRemoveClick}>X</button>
 
         </div>
