@@ -13,7 +13,7 @@ useEffect(() => {
       setTodos(storageTodos)
     }
   }
-}, []);
+
 
   useEffect(() => {
 
