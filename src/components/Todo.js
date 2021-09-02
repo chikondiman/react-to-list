@@ -12,8 +12,10 @@ function Todo({ todo, toggleComplete, removeTodo }) {
     }
     return (
         <ListItem style={{ display: "flex"}}>
-        <CheckBox type="checkbox" onClick={handleCheckboxClick}/>
+        <CheckBox checked={todo.completed} 
+        onClick={handleCheckboxClick}/>
         <Typography
+        variant="body1"
         style={{
             color: "white",
             textDecoration: todo.completed ? "line-through" : null
