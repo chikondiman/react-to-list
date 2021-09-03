@@ -38,9 +38,9 @@ function App() {
       
     
   }
-function removeTodo(id){
-setTodos(todos.filter(todo => todo.id !== id));
-}
+// function removeTodo(id){
+// setTodos(todos.filter(todo => todo.id !== id));
+// }
 
   return (
     <div className="App">
