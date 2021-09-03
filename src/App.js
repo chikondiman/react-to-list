@@ -45,7 +45,7 @@ setTodos(todos.filter(todo => todo.id !== id));
   return (
     <div className="App">
 <Typography style={{ padding: 16}} variant="h1"> React Todo</Typography>
-     <p>TO DO</p>
+     <p>TO DO LIST</p>
       <TodoForm addTodo={addTodo} />
       <TodoList todos={todos} />
   
