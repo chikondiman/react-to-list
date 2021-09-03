@@ -35,7 +35,7 @@ useEffect(() => {
             completed: !todo.completed
           };
         }
-      } )
+      } 
     )
   }
 function removeTodo(id){
